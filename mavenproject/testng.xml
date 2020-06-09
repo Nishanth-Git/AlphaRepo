@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Project" parallel="none">
+<listeners>
+  <listener class-name="UserDefinedlibraries.RetryListener"/>
+</listeners>
+  <test name="makemymaven">
+    <groups>     
+       <run>           
+            <include name="Smoke" />
+            <include name="Regression"/>           
+       </run>   
+    </groups>
+   <classes>
+    <class name="UserDefinedlibraries.RetryFailedTestCases"/>
+    <class name="testScenarios.Home"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

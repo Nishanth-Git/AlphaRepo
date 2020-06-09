@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MakeMyTrip>
+<CabDetails wbc="001">
+    <amount>2000</amount>
+	<TargetMonth>July 2020</TargetMonth>
+    <Targetday>24</Targetday>
+    <RecipientName>Alpha</RecipientName>
+    <RecipientEmail>Alpha</RecipientEmail>
+</CabDetails>
+</MakeMyTrip>
